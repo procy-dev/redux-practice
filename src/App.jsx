@@ -9,7 +9,7 @@ const App = () => {
             <div className="App">
                 <Switch>
                     <Route exact path="/" component={HomePage} />
-                    <Route path="/user" component={UserPage} />
+                    <Route path="/user/:id" component={UserPage} />
                     <Route>404 Page Not Found</Route>
                 </Switch>
                 
